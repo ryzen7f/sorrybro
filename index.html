@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="theme-color" content="#090014">
+  <title>DESCULPA — Um pedido sincero</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+  <main class="page">
+    <header class="hero">
+      <span class="tag">UM PEDIDO SINCERO</span>
+      <h1>DESCULPA</h1>
+      <p>Uma palavra, mil maneiras de dizer. Escolha uma categoria e encontre a desculpa certa.</p>
+    </header>
+
+    <nav class="filters" aria-label="Filtrar desculpas">
+      <button class="filter active" data-filter="todas" type="button">Todas</button>
+      <button class="filter" data-filter="simples" type="button">Simples</button>
+      <button class="filter" data-filter="sinceras" type="button">Sinceras</button>
+      <button class="filter" data-filter="carinhosas" type="button">Carinhosas</button>
+      <button class="filter" data-filter="dramaticas" type="button">Dramáticas</button>
+      <button class="filter" data-filter="engracadas" type="button">Engraçadas</button>
+    </nav>
+
+    <section class="status">
+      <span id="count">0 desculpas</span>
+      <button id="randomBtn" class="random-button" type="button">✨ Escolher uma aleatória</button>
+    </section>
+
+    <section id="excuseGrid" class="excuse-grid" aria-live="polite"></section>
+
+    <footer>Feito com HTML, CSS e JavaScript <span>•</span> Sem imagens, só cores e criatividade.</footer>
+  </main>
+</body>
+</html>
